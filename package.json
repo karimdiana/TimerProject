@@ -1,0 +1,22 @@
+{
+  "name": "timer-project",
+  "version": "1.0.0",
+  "description": "Timer Project for CS372",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "mocha ./tests --recursive --timeout 5000 --exit"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mocha": "11.0.1",
+    "mongoose": "^6.12.3",
+    "supertest": "7.0.0"
+  },
+  "type": "commonjs"
+}
